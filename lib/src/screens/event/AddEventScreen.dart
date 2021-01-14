@@ -37,9 +37,17 @@ class _AddEventScreenState extends State<AddEventScreen> {
       eventCrwdNrController.value =
           TextEditingValue(text: widget.event.crwNumber);
 
-      selectedTime = widget.event.eventTime;
+      addTime();
     }
     super.initState();
+  }
+
+  addTime() {
+    Future.delayed(Duration.zero, () {
+      setState(() {
+        selectedTime = widget.event.eventTime;
+      });
+    });
   }
 
   @override
@@ -185,11 +193,9 @@ class _AddEventScreenState extends State<AddEventScreen> {
                                         });
                                       },
                                       child: Text(
-                                        widget.event != null
-                                            ? widget.event.eventTime
-                                            : selectedTime != ""
-                                                ? selectedTime
-                                                : "Select event hour",
+                                        selectedTime != ""
+                                            ? selectedTime
+                                            : "Select event hour",
                                         style: TextStyle(
                                             color: Colors.white,
                                             fontWeight: FontWeight.bold),
