@@ -38,7 +38,7 @@ class BottomNavBar extends StatelessWidget {
             case 0:
               Functions.redirect(context, FavoriteScreen());
               break;
-            case 0:
+            case 1:
               Functions.redirect(context, EventScreen());
               break;
             case 2:

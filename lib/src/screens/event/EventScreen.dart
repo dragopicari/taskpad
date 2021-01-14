@@ -12,6 +12,7 @@ class EventScreen extends StatelessWidget {
       cntList: eventProvider.listOfEvents,
       isEventList: true,
       title: "Event list",
+      noItemTitle: "No event to show ..",
     );
   }
 }

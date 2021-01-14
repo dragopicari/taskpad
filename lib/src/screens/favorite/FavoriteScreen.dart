@@ -13,6 +13,7 @@ class FavoriteScreen extends StatelessWidget {
       cntList: favoriteProvider.favoriteItems,
       isEventList: false,
       title: "Favorite Items",
+      noItemTitle: "No favorite items to show ...",
     );
   }
 }

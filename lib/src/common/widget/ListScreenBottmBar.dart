@@ -11,11 +11,13 @@ class ListScreenBottmBar extends StatelessWidget {
   final List<dynamic> cntList;
   final bool isEventList;
   final String title;
+  final String noItemTitle;
 
   const ListScreenBottmBar({
     @required this.cntList,
     @required this.isEventList,
     @required this.title,
+    @required this.noItemTitle,
   });
 
   @override
@@ -35,7 +37,7 @@ class ListScreenBottmBar extends StatelessWidget {
       body: cntList.isEmpty
           ? Center(
               child: Text(
-                "No favorite items ..",
+                noItemTitle,
                 style: TextStyle(
                     color: Colors.blueGrey[900],
                     fontSize: 22,
