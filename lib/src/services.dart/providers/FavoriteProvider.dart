@@ -1,5 +1,5 @@
-import 'package:apey/src/common/Functions.dart';
-import 'package:apey/src/screens/favorite/FavoriteDetailsScreen.dart';
+import 'package:taskpad/src/common/Functions.dart';
+import 'package:taskpad/src/screens/favorite/FavoriteDetailsScreen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

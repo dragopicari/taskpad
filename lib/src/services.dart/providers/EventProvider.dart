@@ -1,6 +1,6 @@
-import 'package:apey/src/common/Functions.dart';
-import 'package:apey/src/models/Event.dart';
-import 'package:apey/src/screens/event/EventDetailsScreen.dart';
+import 'package:taskpad/src/common/Functions.dart';
+import 'package:taskpad/src/models/Event.dart';
+import 'package:taskpad/src/screens/event/EventDetailsScreen.dart';
 import 'package:flutter/cupertino.dart';
 
 class EventProvider with ChangeNotifier {

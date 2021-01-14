@@ -1,5 +1,5 @@
-import 'package:apey/src/common/Functions.dart';
-import 'package:apey/src/models/Task.dart';
+import 'package:taskpad/src/common/Functions.dart';
+import 'package:taskpad/src/models/Task.dart';
 import 'package:flutter/material.dart';
 
 class TaskProvider with ChangeNotifier {

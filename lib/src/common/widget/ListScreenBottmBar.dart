@@ -1,8 +1,8 @@
-import 'package:apey/src/common/Colors.dart';
-import 'package:apey/src/common/Functions.dart';
-import 'package:apey/src/screens/event/EventDetailsScreen.dart';
-import 'package:apey/src/screens/favorite/FavoriteDetailsScreen.dart';
-import 'package:apey/src/services.dart/providers/BottomBarValueProvider.dart';
+import 'package:taskpad/src/common/Colors.dart';
+import 'package:taskpad/src/common/Functions.dart';
+import 'package:taskpad/src/screens/event/EventDetailsScreen.dart';
+import 'package:taskpad/src/screens/favorite/FavoriteDetailsScreen.dart';
+import 'package:taskpad/src/services.dart/providers/BottomBarValueProvider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';

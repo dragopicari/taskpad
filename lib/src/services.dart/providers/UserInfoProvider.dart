@@ -1,4 +1,4 @@
-import 'package:apey/src/models/UserInfo.dart';
+import 'package:taskpad/src/models/UserInfo.dart';
 import 'package:flutter/cupertino.dart';
 
 class UserInfoProvider with ChangeNotifier {

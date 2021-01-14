@@ -1,8 +1,8 @@
-import 'package:apey/src/common/Colors.dart';
-import 'package:apey/src/common/GlobalLists.dart';
-import 'package:apey/src/common/widget/DetailsScreen.dart';
-import 'package:apey/src/common/widget/TextFormField.dart';
-import 'package:apey/src/services.dart/providers/FavoriteProvider.dart';
+import 'package:taskpad/src/common/Colors.dart';
+import 'package:taskpad/src/common/GlobalLists.dart';
+import 'package:taskpad/src/common/widget/DetailsScreen.dart';
+import 'package:taskpad/src/common/widget/TextFormField.dart';
+import 'package:taskpad/src/services.dart/providers/FavoriteProvider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
